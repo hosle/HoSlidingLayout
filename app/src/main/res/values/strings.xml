@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HoSlidingLayout</string>
+    <string name="hint_close">"Try to slide from left edge!\nor\nClick me!"</string>
+</resources>
