@@ -30,11 +30,11 @@ class HoSlidingLayout @JvmOverloads constructor(
     var edgeThreshold = 80
     var slideCoverAlpha = 0.6
     var slideCoverColor = Color.parseColor("#333333")
+    var slidable = true
     /**customized params end*/
 
     private var isIntercept = false
     private var isSlideOpen = false
-    var slidable = true
 
     private val scroller = Scroller(context)
 
