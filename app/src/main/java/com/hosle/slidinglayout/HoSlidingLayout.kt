@@ -181,7 +181,7 @@ class HoSlidingLayout @JvmOverloads constructor(
         Log.i(TAG, "Listen : onSliding")
     }
 
-    private fun onSlideOpen() {
+    private fun  onSlideOpen() {
         if (!isSlideOpen) {
             isSlideOpen = true
             for (item in slidingListeners) {
