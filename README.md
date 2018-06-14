@@ -109,6 +109,8 @@ fun closeSlideBoard()
 * 处理View的随手势滑动，比较两种方法。
 
 	（1） 每次手势回调位置偏移后，调用```requestLayout()```方法，然后在```onLayout()```方法对子view重新布局，从而实现滑动。
+	
+	处理当前ViewGroup／View的手势滑动，可以在```onScrollListener```的回调中使用```layout(left,top,right,bottom)```方法，View的layout方法会自动调用```requestLayout()```方法刷新布局
 
 	（2） 每次手势回调位置偏移后，调用```scrollTo()```/```scrollBy()```方法，从而实现滑动。
 
